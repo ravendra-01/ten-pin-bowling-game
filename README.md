@@ -39,3 +39,9 @@ You can start the rails server using the command given below.
 ```ruby
 rails s
 ```
+#### APIs
+- Postman API collection: https://api.postman.com/collections/18613790-b0acbfa1-9da0-4b31-8a7a-8c2b2e5d410a?access_key=PMAT-01HT59XCYR3D55XSCWHN9YG9KW
+
+- To start the game, need to make post request: http://localhost:3000/bowling_games
+- Once game started, need to make patch request to send each throw: http://localhost:3000/bowling_games/:id
+- To fetch the game score, need to make get request: http://localhost:3000/bowling_games/:id
