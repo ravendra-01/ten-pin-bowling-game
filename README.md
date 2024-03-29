@@ -1,24 +1,41 @@
-# README
+## About
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a bowling game project, here we have API for a bowling game where after each throw by a player, calls the API to send the information of the throw and we have the API to querying the game score and displaying it.
 
-Things you may want to cover:
+#### Prerequisites
 
-* Ruby version
+- ruby 3.2.2
+- rails 7.0.8
+- Node 18+, and Yarn 1.x
 
-* System dependencies
+#### Install
 
-* Configuration
+##### 1. Check out the repository
 
-* Database creation
+```bash
+git clone https://github.com/ravendra-01/ten-pin-bowling-game.git
+```
 
-* Database initialization
+##### 2. Create and setup the database
 
-* How to run the test suite
+Run the following commands to install gems.
 
-* Services (job queues, cache servers, search engines, etc.)
+```ruby
+bundle install
+```
 
-* Deployment instructions
+##### 3. Create and setup the database
 
-* ...
+Run the following commands to create and setup the database.
+
+```ruby
+rails db:create db:migrate db:seed
+```
+
+##### 4. Start the Rails server
+
+You can start the rails server using the command given below.
+
+```ruby
+rails s
+```
